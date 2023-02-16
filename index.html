@@ -11,18 +11,22 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>!DOCTYPE declares what type of document the browser should expect to open.</li>
+          <li>!DOCTYPE declares what type of document the browser should expect to open. (not required, but standard in HTML documents)</li>
+          <li>An HTML element and tag are one in the same.</li>
+          <li>Most elements have opening and closing tags, if they do, they are also capable of having "child" elements within it.</li>
           <li>The html tag represents the start of our document. Inside this will be our attributes.
           </li>
           <li>An attribute defines additional information about an element</li>
           <li>HTML attributes are always defined in the beginning element, never the closing element.</li>
           <li>The head element contains information about the webpage.</li>
           <li>The title element defines the title for a webpage. This element is required and is extremely important for Search Engine Optimization(SEO).</li>
+          <li>The section element will be used to organize the content of our code to put similar working things together. This is similar to a "section" in a newspaper.</li>
           <li>The style element defines the CSS styles associated with a website.</li>
           <li>The base element defines the base URL for a webpage.</li>
           <li>The link element connects an external resource to the HTML document.</li>
@@ -31,24 +35,20 @@
           <li>The body element represents the visible content shown to the user.</li>
           <li>The body element is known as the parent element, thus all of the elements inside of it are called the child elements.</li>
           <li>The content of visible HTML elements is contained between an opening tag and a closing tag. Opening tag: head  Closing tag: /head</li>
-          <li>The h1, h2, h3 etc. are heading elements. The heading will be in a larger or more prominent print.</li>
+          <li>The h1 through h6 are heading elements. The heading will be in a larger or more prominent print.</li>
           <li>The p element represents a paragraph or block of text.</li>
           <li>The ul element is for unordered lists and the ol element is for ordered lists. The li element is a list item and will be put within either the ul or ol elements.</li>
           <li>The img element contains information about images that are diplayed on the webpage. The img element can contain various attributes; the src attribute is the most important because it defines the location of the image.</li>
           <li>The br element creates a line of empty space, or a line break, between the two blocks of content.</li>
           <li>The a (whcih stands for anchor) element creates links to the same webpage or other webpages. The href attribuute points to the URLfor the link.</li>
-<<<<<<< HEAD
           <li>The rel attribute specifies the relationship between the current document and the linked document resource.</li>
           <li>The href attribute specifies the location(URL) of the external recourse.</li>
-=======
->>>>>>> main
         </ul>
       </section>
 
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-<<<<<<< HEAD
           <li>Cascading Style Sheets(CSS) is a programming language used by developers to define how webpage content is presented to users.</li>
           <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
           <li>Inline CSS is used to style an element directly in the HTML file.</li>
@@ -63,9 +63,6 @@
           <li>text-align is a positioning property we can use to center a title or heading on a webpage by giving it the value of center.</li>
           <li>Using the img selector will assign property to all of the image elements in the markup.</li>
           <li>The display property with the value of block will make all of images start on a new line.</li>
-=======
-          <li>CSS notes go here</li>
->>>>>>> main
         </ul>
       </section>
 
@@ -74,29 +71,57 @@
       <ul>
         <li>git status: checks what branch we are currently on</li>
         <li>git checkout -b branch-name: creates a new branch and switches to said branch</li>
-<<<<<<< HEAD
         <li>git add -A commits all of the files in the working branch</li>
-=======
->>>>>>> main
       </ul>
       </section>
 
       <section class="card" id="javascript-section">
-      <h2>javascript</h2>  
-<<<<<<< HEAD
+      <h2>JavaScript</h2>  
       <ul>
-        <li>javascript notes go here</li>
+        <li>JavaScript adds interactivity to projects.</li>
+        <li>Use let to declare variables that will change later.</li>
+        <li>Use const to declare variables that will not change.</li>
+        <li>A semicolon at the end of a line indicates where a statement ends. However, it is only required when you need to seperate statements on a single line.</li>
+        <li>JavaScript is case sensitive</li>
+        <li>A string is a sequence of text. To signify that the value is a string, enlcose it in single or double quote marks.</li>
+        <li>When a value is set as a number, quotation marks will not be used.</li>
+        <li>Boolean is a true/flase value, which do not need quotation marks.</li>
+        <li>An array is a structure that allows you to store multiple values in a single reference.</li>
+        <li>An object can be anything. All objects can be stored in a variable.</li>
+        <li>Comments can be added with /* "comment */. When making a comment with no line breaks, it's an option to put it behind two slashes instead: //"comment".</li>
+        <li>An operator is a mathematical symbol that produces a result based on two values(or variables)</li>
+        <li>The operation, addition, adds two numbers together or combines two strings. Symbol: +</li>
+        <li>The operations, subtraction, multiplication, adn diviion, do exactly what you'd expect them to do. Symbols: -,*,/</li>
+        <li>The operation, assignment, assigns a value to a variable. Symbol: =</li>
+        <li>The operation, strict equality, performs a test to see if two values are equal. A true/fale(Boolean) result will return. Symbol: ===</li>
+        <li>The operation, not, does-not-equal, returns the logically opposite value of what it precedes. It turns a true value into a false value etc.. When it is used alongside the equality operator, the negation operator tests whether two values are not equal. Symbol: !, !==</li>
+        <li>Conditionals are code structures used to test if an expression returns true or not. A very common form of conditionals is the if...else statement.</li>
+        <li>Functions are a way of packaging functionality that you wish to reuse. It's possible to define a body of code as a function that executes when you call the function name in your code.</li>
+        <li>Event handlers are code structures that listen for activity in the browser, and run code in response. The most obvious example in handling is the "click event".</li>
+        <li>All value types except eobjects define immutable values represented directly at the lowest level of the language. These values are refered to as primitive values.</li>
+        <li>Null type typeof return value: object  Object Wrapper: N/A</li>
+        <li>Undefined type typeof return value: undefined  Object Wrapper: N/A</li>
+        <li>All other types typeof return values and object wrapper: Same as the type itslef</li>
+        <li>NaN(Not a Number) is a special kind of number value that's typically encountered when the result of an arithmetic operation cannot be expressed as a number. It is also the only value in JavaScript that is not equal to itself.</li>
+        <li>The BigInt type is a numeric primitive in JavaScript that can represent integers with arbitrary magnitude.</li>
+        <li>The string type respresents textual data and is encoded as a sequence of 16-bit unsigned integer values representing UTF-16 code units.</li>
+        <li>JavaScript strings are immutable, meaning that once a string is created, it is not possible to modify it.</li>
+        <li>A symbol type is a unique immutable primitive value and may be used as  the key of an Object property.</li>
+        <li>Control flow is the order in which a computer executes code, this isn't only for js.</li>
+        <li>JavaScript is read from top to bottom, thus our order of code matters.</li>
+        <li>The if statement is a conditional statement that will only execute the code if the statement meets a condition or is true.</li>
+        <li>The following values are considered falsy values: 0, -0, On, "", null, undefined, Nan, and the false boolean value. All other values are considered truthy values.</li>
+        <li>An array is a single variable that is used to hold a group of data.</li>
+        <li>In JavaScript and many other programming languages, arrays are zero-indexed and sequential, meaning that the first item in any array has an index of 0, the second, 1, the third, 2, and so on.</li>
+        <li>A for loop used the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over. An if statement is an example that would interrupt our for loop.</li>
+        <li>x++ is a shortcut way of writing x+1.</li>
       </ul>
-=======
-      <ui>
-        <li>javascript notes go here</li>
-      </ui>
->>>>>>> main
       </section>
     </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
